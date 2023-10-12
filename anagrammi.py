@@ -1,4 +1,7 @@
+#CONSEGNA: scrivere un programma che prende in input due stringhe e decide se sono anagrammi
+
 x= input('inserire una stringa ').strip()
+
 y= input('inserire altra stringa ').strip()
 
 def anagramma(x,y):

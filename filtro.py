@@ -1,3 +1,5 @@
+#CONSEGNA: scrivere un programma che prende due stringhe in input, in output stampa solo i caratteri della prima stringa che ha in comune con la seconda
+
 x= input('inserire prima stringa ')
 y= input('inserire seconda stringa ')
 
@@ -13,7 +15,7 @@ def filtro2(stringa, stringa_filtro):
 		i+=1
 	return caratteri_comuni	
 
-#metodo moderno
+#metodo compatto
 def filtro(stringa, stringa_filtro):
 	caratteri_comuni=""
 	for c in stringa:
