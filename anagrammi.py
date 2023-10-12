@@ -24,10 +24,20 @@ def anagramma(x,y):
                 return False
         return True
                 
+def anagramma2(x,y):
+	occorrenze_in_x=0
+	occorrenze_in_y=0
+	for c1 in x:
+		if occorrenze(c1,y)!=occorrenze(c1,x): return False
+	return True
+		
+def occorrenze(char,stringa):
+	occ=0
+	for c in stringa:
+		if char==c: occ+=1
+	return occ			 
 
-
-
-if anagramma(x,y):
+if anagramma2(x,y):
     print('sono anagrammi')
 else :
 	print('non sono anagrammi')
