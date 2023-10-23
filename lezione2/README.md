@@ -1,6 +1,8 @@
 # consegne per la lezione 2:
 
 ## esercizio 1: 
+[soluzione](https://github.com/BrunoGatti/eserciziProgrammazione/blob/master/lezione2/vocali.py)
+
 prendere una stringa in input e stampare, uno ad uno, le vocali.
 Fare la stessa cosa ma stampando tutta la parola.
 
