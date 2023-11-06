@@ -52,6 +52,7 @@ print(modifica(lista[:]))
 ##print(lista)
 '''
 
+'''
 def modifica(lis):
 	lis_alias=lis[:]
 	for i in range(len(lis_alias)):
@@ -60,5 +61,14 @@ def modifica(lis):
 
 print(modifica(lista[:]))
 print(lista)
+'''
 
+'''
+def modifica(lis=[]):
+	for i in range(len(lis)):
+		lis[i]="ciao"
+	return lis
 
+print(modifica(lista[:]))
+print(lista)
+'''
