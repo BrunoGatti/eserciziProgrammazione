@@ -41,6 +41,12 @@ print("questo è l'array b:",b)
 #scrivi una funzione che sostituisce ad ogni elemento di lista la parola "ciao" SENZA MODIFICARE LA LISTA!!!
 lista=[1,3,8,2]
 
+
+
+
+
+
+
 '''
 def modifica(lis=[]):#sbagliata
 	for i in range(len(lis)):
@@ -71,4 +77,36 @@ def modifica(lis=[]):
 
 print(modifica(lista[:]))
 print(lista)
+'''
+
+
+
+
+
+stringa="ciao"
+stringa2=stringa
+
+def funzione(stringa):
+	stringa+="aaaaaaaaaa"
+	return stringa
+
+print(funzione(stringa))
+print(stringa)
+print(stringa2)
+
+
+
+
+
+'''
+tupla=(1,2,3,4)
+tupla2=tupla
+
+def funzione(tup):
+	tup+=(5,6)
+	return tup
+
+print(funzione(tupla))
+print(tupla)
+print(tupla2)
 '''

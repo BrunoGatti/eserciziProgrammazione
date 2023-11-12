@@ -1,4 +1,19 @@
-lista = [1,2,"ciao","come","stai",3,8,"Almqvist"]
+lista = [1,2,3.4,5.7,"ciao","come","stai",3,8,"Almqvist"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '''
 def function(el):
